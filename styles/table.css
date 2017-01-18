@@ -1,0 +1,43 @@
+header h3 {
+	margin-right: 128px;
+}
+
+article h3 {
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+table {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th, td {
+	border: 1px solid black;
+	text-align: center;	
+	padding: 0.2em 0.6em;
+}
+
+thead {
+	background-color: #dbdbdb;
+}
+
+tbody tr:nth-child(even) {
+	background-color: #dbdbdb;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: #ededed;
+}
+
+.left {
+	text-align: left;
+}
+
+#platform_PC98 {
+	background-color: #a0efb1;
+}
+
+#platform_Windows {
+	background-color: #a8dbd8;
+}

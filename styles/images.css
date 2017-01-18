@@ -1,0 +1,53 @@
+/* Overriding main.css due to change in layering */
+#right_panel {
+	float: right;
+}
+
+header h3 {
+	margin-right: 128px;
+}
+
+article.with_background {
+	background-color: #ededed;
+}
+
+article figure {
+	float: right;
+	width: 45%;
+	padding: 0.4em;
+	padding-right: 15px;
+}
+
+figure.single {
+	float: left;
+	padding-left: 18px;
+	background-color: #ededed;
+	margin-bottom: 1em;
+}
+
+figure.double {
+	background-color: #ededed;
+	margin-bottom: 1em;
+}
+
+figure.left {
+	padding-left: 16px;
+}
+
+p.newline {
+	clear: both;
+}
+
+article figure img {
+	width: 100%;
+	border: 1px black solid;	
+}
+
+figure img:hover {
+	width: 200%;
+	background-color: #ededed;
+}
+
+article h3 {
+	text-align: center;
+}
